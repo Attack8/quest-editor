@@ -10,31 +10,12 @@
     "start": "remix-serve ./build/server/index.js"
   },
   "dependencies": {
-    "@editorjs/checklist": "^1.6.0",
-    "@editorjs/code": "^2.9.3",
-    "@editorjs/delimiter": "^1.4.2",
-    "@editorjs/editorjs": "^2.30.7",
-    "@editorjs/embed": "^2.7.6",
-    "@editorjs/header": "^2.8.8",
-    "@editorjs/image": "^2.10.1",
-    "@editorjs/inline-code": "^1.5.1",
-    "@editorjs/link": "^2.6.2",
-    "@editorjs/list": "^2.0.2",
-    "@editorjs/marker": "^1.4.0",
-    "@editorjs/paragraph": "^2.11.7",
-    "@editorjs/quote": "^2.7.6",
-    "@editorjs/raw": "^2.5.1",
-    "@editorjs/simple-image": "^1.6.0",
-    "@editorjs/table": "^2.4.3",
-    "@editorjs/warning": "^1.4.1",
     "@remix-run/node": "^2.15.2",
     "@remix-run/react": "^2.15.2",
     "@remix-run/serve": "^2.15.2",
-    "editorjs-text-color-plugin": "^2.0.4",
     "isbot": "^4.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-editor-js": "^2.1.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.2",

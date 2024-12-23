@@ -9,6 +9,7 @@ import {
 } from "@remix-run/react";
 
 import "./styles/tailwind.css";
+import MainNavigation from "./components/MainNavigation";
 
 export const links = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -33,6 +34,9 @@ export function Layout({ children }) {
         <Links />
       </head>
       <body>
+        <header>
+          <MainNavigation />
+        </header>
         {children}
         <ScrollRestoration />
         <Scripts />
@@ -54,6 +58,9 @@ export function ErrorBoundary() {
         <title>An error occurred!</title>
       </head>
       <body>
+        <header>
+          <MainNavigation />
+        </header>
         <main className="error">
           <h1>An error occurred!</h1>
           <p>{error.message}</p>
